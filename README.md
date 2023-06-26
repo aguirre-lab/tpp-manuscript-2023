@@ -48,7 +48,7 @@ Implementation of a lowpass filter.
 - np.ndarray of the filttered signal.
 --------
 ```python
-beat_to_beat_features(art_vals: np.ndarray, art_time: np.ndarray, fs: int = 120)
+beat_to_beat_features(art_vals: np.ndarray, art_time: np.ndarray, fs: int = 120, twin: float = 0.1)
 ```
 Function to extract beat-to-beat mean (map), systolic (sbp), and diastolic (dbp) blood pressure, heart rate (hr), and pulse pressure (pp) from a continuous blood pressure waveform.
  
