@@ -28,7 +28,7 @@ The code was tested on Python 3 with NumPy `1.21.5`, SciPy `1.7.3`, and Scikit-l
 
 ## Code
 
-Two `.py` are provided. The first one, `beat_to_beat.py`, provides a function called `beat_to_beat_features`, which given a blood pressure waveform and it's sampling frequency, will perform a beat-to-beat analysis to compute the mean (MAP), systolic (SBP), and diastolic blood pressure (DBP), the heart rate (HR), the pulse pressure (PP) and the time associated to every beat. It also provides a helper function to apply a lowpass filter to a signal.
+Two `.py` are provided. The first one, `beat_to_beat.py`, provides a function called `beat_to_beat_features`, which given a blood pressure waveform its timestmaps and sampling frequency, will perform a beat-to-beat analysis to compute the mean (MAP), systolic (SBP), and diastolic blood pressure (DBP), the heart rate (HR), the pulse pressure (PP) and the time associated to every beat. It also provides a helper function to apply a lowpass filter to a signal.
 
 The second file, `tpp_estimation.py`, provides three functions. One to estimate critical closing pressure given a set of paired MAP and PP*Hr measurements (`pcrit_estimation`), a second one, that given the beat-to-beat features of a blood pressure waveform will estimate critical closing pressure and tissue perfusion pressure with a sliding window approach (`sliding_window_pcrit_estimation_from_features`), and a third one that given a blood pressure waveform and it's sampling frequency, will estimate critical closing pressure and tissue perfusion pressure with a sliding window approach (`sliding_window_pcrit_estimation_from_waveform`).
 
@@ -56,6 +56,7 @@ Function to extract beat-to-beat mean (map), systolic (sbp), and diastolic (dbp)
 - `art_vals` (np.ndarray): NumPy array with the ABP waveform values.
 - `art_time` (np.ndarray): NumPy array with the time vector of the ABP measurements.
 - `fs` (int): Sampling frequency.
+- `twin` (float): Time window in seconds to look for the original minimum.
 
 **Returns:**
 - A dictionary (Dict[str, np.ndarray]) with the detection of the beat-to-beat bp features. The keys of the dictionary are `map`, `sbp`, `dbp`, `pp`, `hr`, and `time`.
