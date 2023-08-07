@@ -1,24 +1,11 @@
 # Tissue Perfusion Pressure Estimation
 Code to estimate tissue perfusion pressure from a high-frequency arterial line waveform.
-Companion code to the paper “Tissue perfusion pressure for hemodynamic evaluation of patients in the intensive care unit”.
+Companion code to the paper “Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit”.
 
 --------
 Citation:
 ```
-```
-
-Bibtex: 
-```
-@article{,
-    title = {Tissue perfusion pressure for hemodynamic evaluation of patients in the intensive care unit},
-    author = {Chandraseckhar, Anand and Padrós-Valls, Raimon and Pallares-Lopez, Roger and Palanques-Tost, Eric and Houstis, Nicholas and Sundt, Thoralf M. and Lee, Hae-Seung and Sodini, Charles G. and Aguirre, Aaron D.},
-    year = {2023},
-    volume = {},
-    pages = {},
-    doi = {https://doi.org/},
-    journal = {Nature Medicine},
-    number = {}
-}
+Chandrasekhar, A., Padrós-Valls, R., Pallarès-López, R. et al. Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit. Nat Med (2023). https://doi.org/10.1038/s41591-023-02474-6
 ```
 --------
 
