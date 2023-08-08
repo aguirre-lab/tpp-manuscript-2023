@@ -2,6 +2,8 @@
 Code to estimate tissue perfusion pressure from a high-frequency arterial line waveform.
 Companion code to the paper “Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit”.
 
+The methods presented and the code provided, shall be used for research and experimental purposes, but not for commercial use. A patent application entitled ‘System and methods for measuring critical closing pressure and tissue perfusion pressure in patients’ was filed by The General Hospital Corporation with the U.S. Patent and Trademark Office.
+
 --------
 Citation:
 ```
