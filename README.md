@@ -3,7 +3,9 @@ Code to estimate tissue perfusion pressure from a high-frequency arterial line w
 
 The code in this repository is made available for the purposes of scientific research and educational activities in conjunction with the corresponding published scientific manuscript.
 
-The methods presented and the code provided are not intended for and should not be utilized for commercial purposes or for clinical evaluation, clinical decision making, or healthcare delivery. The user holds the authors and their corresponding institutions harmless from any claims arising out of its use. The authors and their corresponding institutions are not responsible for any treatment or medical applications or decisions made by users based on information contained in this repository. A patent application entitled ‘System and methods for measuring critical closing pressure and tissue perfusion pressure in patients’ was filed by The General Hospital Corporation with the U.S. Patent and Trademark Office.
+The methods presented and the code provided are not intended for and should not be utilized for commercial purposes or for clinical evaluation, clinical decision making, or healthcare delivery. The user holds the authors and their corresponding institutions harmless from any claims arising out of its use. The authors and their corresponding institutions are not responsible for any treatment or medical applications or decisions made by users based on information contained in this repository. 
+
+A patent application entitled “Systems and Methods for Measuring Critical Closing Pressure and Tissue Perfusion Pressure” was filed by the General Hospital Corporation with the US Patent and Trademark Office. 
 
 Please direct any questions or further inquiries to the corresponding author at aaguirre1@mgh.harvard.edu.
 
