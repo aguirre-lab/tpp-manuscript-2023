@@ -1,13 +1,16 @@
 # Tissue Perfusion Pressure Estimation
-Code to estimate tissue perfusion pressure from a high-frequency arterial line waveform.
-Companion code to the paper “Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit”.
+Code to estimate tissue perfusion pressure from a high-frequency arterial line waveform. Companion code to the paper “Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit”.
 
-The methods presented and the code provided, shall be used for research and experimental purposes, but not for commercial use. A patent application entitled ‘System and methods for measuring critical closing pressure and tissue perfusion pressure in patients’ was filed by The General Hospital Corporation with the U.S. Patent and Trademark Office.
+The code in this repository is made available for the purposes of scientific research and educational activities in conjunction with the corresponding published scientific manuscript.
+
+The methods presented and the code provided are not intended for and should not be utilized for commercial purposes or for clinical evaluation, clinical decision making, or healthcare delivery. The user holds the authors and their corresponding institutions harmless from any claims arising out of its use. The authors and their corresponding institutions are not responsible for any treatment or medical applications or decisions made by users based on information contained in this repository. A patent application entitled ‘System and methods for measuring critical closing pressure and tissue perfusion pressure in patients’ was filed by The General Hospital Corporation with the U.S. Patent and Trademark Office.
+
+Please direct any questions or further inquiries to the corresponding author at aaguirre1@mgh.harvard.edu.
 
 --------
 Citation:
 ```
-Chandrasekhar, A., Padrós-Valls, R., Pallarès-López, R. et al. Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit. Nat Med (2023). https://doi.org/10.1038/s41591-023-02474-6
+Chandrasekhar A, Padrós-Valls R, Pallarès-López R, Palanques-Tost E, Houstis N, Sundt TM, Lee HS, Sodini CG, Aguirre AD. Tissue perfusion pressure enables continuous hemodynamic evaluation and risk prediction in the intensive care unit. Nat Med. 2023 Aug;29(8):1998-2006. doi: 10.1038/s41591-023-02474-6. Epub 2023 Aug 7. PMID: 37550417.
 ```
 --------
 
