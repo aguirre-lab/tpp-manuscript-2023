@@ -51,6 +51,8 @@ Function to extract beat-to-beat mean (map), systolic (sbp), and diastolic (dbp)
 - `art_time` (np.ndarray): NumPy array with the time vector of the ABP measurements.
 - `fs` (int): Sampling frequency.
 - `twin` (float): Time window in seconds to look for the original minimum.
+- `by` (str): Extrema to use to segment cardiac cycles. Either min or max.
+- `filt_outliers` (bool): Use an outlier filter. This may slow down the processing time.
 
 **Returns:**
 - A dictionary (Dict[str, np.ndarray]) with the detection of the beat-to-beat bp features. The keys of the dictionary are `map`, `sbp`, `dbp`, `pp`, `hr`, and `time`.
